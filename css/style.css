@@ -1,0 +1,146 @@
+@import "null.css";
+
+body {
+	background: rgba(73, 65, 65, 0.945);
+}
+
+.container {
+	max-width: 1250px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.intro {
+	margin: 0 auto;
+	border: 3px solid #fff;
+	border-radius: 20px;
+}
+
+.intro h1 {
+	font-size: 34px;
+	color: #fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	margin: 50px 0 0 0;
+}
+
+.start {
+	border: 3px solid floralwhite;
+}
+.one {
+	width: 640px;
+	height: 30px;
+	background: url(../img/ded.svg) 50px 0 / 30px no-repeat green;
+	visibility: hidden;
+}
+.ty {
+	margin: 0 auto;
+	width: 30px;
+	height: 500px;
+	background: gold;
+	visibility: hidden;
+}
+
+.free {
+	width: 640px;
+	height: 20px;
+	background: url(../img/left.svg) greenyellow;
+	visibility: hidden;
+}
+
+.fwo {
+	width: 20px;
+	height: 600px;
+	background: indianred;
+	visibility: hidden;
+}
+
+.five {
+	margin: 0 auto;
+	width: 1260px;
+	height: 15px;
+	background: url(../img/rite.svg) aquamarine;
+	visibility: hidden;
+}
+
+.six {
+	width: 10px;
+	height: 650px;
+	background: burlywood;
+	margin: 0 0 0 1250px;
+	visibility: hidden;
+}
+
+.seven {
+	width: 700px;
+	height: 10px;
+	background: url(../img/no.svg) left 0 / 10px no-repeat lawngreen;
+	margin: 0 0 0 560px;
+	visibility: hidden;
+}
+
+.en {
+	height: 200px;
+	width: 5px;
+	background: limegreen;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.imeges {
+	border: 3px solid teal;
+	width: 400px;
+	height: 400px;
+	background: url(../img/17095.jpg) 0 0 / cover no-repeat;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.start:hover + .one,
+.one:hover {
+	visibility: visible;
+}
+
+.one:hover + .ty,
+.ty:hover {
+	visibility: visible;
+}
+
+.ty:hover + .free,
+.free:hover {
+	visibility: visible;
+}
+
+.free:hover + .fwo,
+.fwo:hover {
+	visibility: visible;
+}
+
+.fwo:hover + .five,
+.five:hover {
+	visibility: visible;
+}
+
+.five:hover + .six,
+.six:hover {
+	visibility: visible;
+}
+
+.six:hover + .seven,
+.seven:hover {
+	visibility: visible;
+}
+
+.seven:hover + .en,
+.en:hover {
+	visibility: visible;
+}
+
+.en:hover + .images,
+.images:hover {
+	visibility: visible;
+}
